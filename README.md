@@ -25,6 +25,7 @@ Run the script:
 ```bash
 cd profilechecker
 profilechecker.py
+```
 
 Enter the username you want to check when prompted.
 
@@ -42,7 +43,8 @@ The script will:
 
 ---
 
-⚙️ Configuration
+## ⚙️ Configuration
+
 data.json
 A JSON file containing URL templates with {account} placeholders is from Sherlock.
 Example entry:
@@ -56,7 +58,7 @@ Example entry:
 
 ---
 
-📝 Example
+## 📝 Example
 ```bash
 [*] Enter username: johndoe
 [*] Starting profile checks for user 'johndoe' on 300 sites...
@@ -76,6 +78,6 @@ Example entry:
 
 ---
 
-## 👤 Author
+## 👤 Created by
 
 Youssef Rahmouni
