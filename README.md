@@ -1,4 +1,4 @@
-![](https://github.com/youssef-rahmouni/profilechecker/other/11.jpg)
+![ProfileChecker](https://github.com/youssef-rahmouni/profilechecker/other/11.jpg)
 
 # 🔎 ProfileChecker
 
