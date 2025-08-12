@@ -11,7 +11,9 @@
 ---
 
 ## 🛠 Installation
-
+```bash
+git clone https://github.com/youssef-rahmouni/profilechecker.git
+```
  
 
 ---
