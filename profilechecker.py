@@ -47,6 +47,7 @@ print(colored(f"[*] Starting profile checks for user '{username}' on {total} sit
 def check_profile(url):
     try:
         response = requests.get(url, timeout=5) 
+        # The app returns a 200 code even when a profile doesn't exist, so I need to check the page text instead. I'll fix this later
         if response.status_code == 200:
             return True, url
     except requests.exceptions.RequestException:
@@ -73,3 +74,4 @@ print(colored(f"\033[1m[*] Total Profiles not exists: {total - road}/{total}", B
 print(colored(f"\033[1m[*] Time taken: {loadingbar.elapsed_time():.2f}s", BLUE))
 
 print(colored("✔ Script finished successfully!", GREEN))
+
